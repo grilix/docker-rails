@@ -6,10 +6,4 @@ WORKDIR /myapp
 ADD Gemfile /myapp/Gemfile
 RUN touch /myapp/Gemfile.lock
 
-
-ENV PORT=3000
-ENV RACK_ENVIRONMENT=development
-ENV HOST=0.0.0.0
-EXPOSE 3000
-
 RUN bundle install
