@@ -33,7 +33,7 @@ group :development, :test do
   gem 'reek', '~> 4.7'
   gem 'rubocop', '~> 0.48'
   gem 'rails_best_practices', '~> 1.18'
-  gem 'scss_lint', '~> 0.38'
+  gem 'scss_lint', '~> 0.54'
   gem 'vcr', '~> 3.0'
   gem 'webmock', '~> 3.0'
 end
