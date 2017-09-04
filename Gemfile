@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.4.1'
 
 gem 'rails', '~> 5.0.3'
-gem 'pg', '~> 0.20.0'
+gem 'pg', '~> 0.21'
 gem 'puma', '~> 3.9'
 gem 'sass-rails', '~> 5.0'
 gem 'compass-rails', '~> 3.0'
